@@ -67,7 +67,7 @@ const Page4 = () => {
           </h1>
           <img
             className="h-full w-full object-cover"
-            src="./Images/con.jpg"
+            src="./Images/new.jpg"
             alt=""
           />
         </motion.div>
