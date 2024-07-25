@@ -20,7 +20,7 @@ const Loader = () => {
           return (
             <h1
               key={index}
-              className="text-7xl font-semibold tracking-tight leading-none overflow-hidden"
+              className="text-7xl lg:text-[11rem] font-semibold tracking-tight leading-none overflow-hidden"
             >
               <motion.span
                 initial={{ rotate: 90, y: "100%", opacity: 0 }}

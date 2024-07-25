@@ -1,11 +1,11 @@
-import gsap, { Power4, ScrollTrigger } from "gsap/all";
+import gsap, { ScrollTrigger } from "gsap/all";
 import React, { useEffect, useRef } from "react";
 
 const Page5 = () => {
-  const parent = useRef(null);
-  const videodiv = useRef(null);
-  const play = useRef(null);
-  const reel = useRef(null);
+  const parent = useRef();
+  const videodiv = useRef();
+  const lets = useRef();
+  const play = useRef();
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     var tl = gsap.timeline({
@@ -21,25 +21,25 @@ const Page5 = () => {
       {
         width: "100%",
         height: "100%",
-        ease: Power4,
+        ease: "power4.inOut",
       },
       "a"
     )
       .to(
-        play.current,
+        lets.current,
         {
-          x: "100%",
-          scale: 1,
-          ease: Power4,
+          x: "40%",
+          scale: .9,
+          ease: "power4.inOut",
         },
         "a"
       )
       .to(
-        reel.current,
+        play.current,
         {
-          x: "-100%",
-          scale: 1,
-          ease: Power4,
+          x: "-40%",
+          scale: .9,
+          ease: "power4.inOut",
         },
         "a"
       );
@@ -47,7 +47,7 @@ const Page5 = () => {
   return (
     <div
       ref={parent}
-      className="w-full h-screen overflow-hidden relative bg-black"
+      className="w-full h-screen overflow-hidden relative bg-black font-['Nuckle']"
     >
       <div
         ref={videodiv}
@@ -57,7 +57,7 @@ const Page5 = () => {
           autoPlay
           muted
           loop
-          className="w-full h-full object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          className="w-full h-full object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:aspect-square"
           src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4"
         ></video>
       </div>
@@ -76,19 +76,18 @@ const Page5 = () => {
               data-v-669b4a84=""
             ></path>
           </svg>
-          <h3 className="text-sm">Work in motion</h3>
+          <h3 className="text-sm up">Safe Sex</h3>
         </div>
-        <h1 className="w-full flex justify-center items-center gap-36 sm:gap-96">
+        <h1 className="w-full flex justify-center items-center gap-28 sm:gap-96 font-['Nuckle']">
+          <div ref={lets} className="text-6xl sm:text-8xl font-light">
+            Let's
+          </div>
           <div ref={play} className="text-6xl sm:text-8xl font-light">
             Play
           </div>
-          <div ref={reel} className="text-6xl sm:text-8xl font-light">
-            Reel
-          </div>
         </h1>
         <p className="text-center text-[1.6vh]">
-          Our work is best experienced in motion. Don’t <br /> forget to put on
-          your headphones.
+          Enhancing intimacy and pleasure for couples having long-lasting sex.
         </p>
       </div>
     </div>

@@ -7,8 +7,8 @@ const Marquee = ({ maintexts }) => {
       <motion.div
         initial={{ x: "0%" }}
         animate={{ x: "-100%" }}
-        transition={{ ease: "linear", duration: 10, repeat: Infinity }}
-        className="marque flex flex-shrink-0 py-10 gap-10 pl-10 uppercase text-5xl"
+        transition={{ ease: "linear", duration: 20, repeat: Infinity }}
+        className="marque flex flex-shrink-0 py-5 gap-5 pl-5 uppercase text-5xl font-bold"
       >
         {maintexts.map((text, index) => (
           <span key={index}>{text}</span>
@@ -18,8 +18,8 @@ const Marquee = ({ maintexts }) => {
       <motion.div
         initial={{ x: "0%" }}
         animate={{ x: "-100%" }}
-        transition={{ ease: "linear", duration: 10, repeat: Infinity }}
-        className=" marque flex flex-shrink-0 py-10 gap-10 pl-10 uppercase text-5xl"
+        transition={{ ease: "linear", duration: 20, repeat: Infinity }}
+        className=" marque flex flex-shrink-0 py-5 gap-5 pl-5 uppercase text-5xl font-bold"
       >
         {maintexts.map((text, index) => (
           <span key={index}>{text}</span>

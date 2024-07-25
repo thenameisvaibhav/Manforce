@@ -1,16 +1,32 @@
-import React from 'react'
+import React from "react";
 
 const Category = () => {
   return (
     <div className="w-full">
-      <div className="cards bg-white h-96 w-full lg:flex">
-        <div className="card1 bg-blue-500 h-full lg:w-1/2 hover:w-[80%] transition-all">
-        <div className="cardcontainer w-full h-full hover:bg-green-500 hover:transition-colors hover:duration-100 hover:delay-100"></div>
+      <div className="cards h-[150vh] w-full lg:flex">
+        <div className="card1 h-1/2 lg:h-full w-full lg:w-1/2 hover:w-[80%] transition-all border-[.1px] border-white">
+          <h1 className="text-5xl text-center font-bold my-5 uppercase tracking-wide">
+            Dotted
+          </h1>
+          <img
+            className="h-96 w-full object-contain"
+            src="./Images/Product1.png"
+            alt=""
+          />
         </div>
-        <div className="card2 bg-yellow-500 h-full lg:w-1/2 hover:w-[80%] transition-all"></div>
+        <div className="card2 h-1/2 lg:h-full w-full lg:w-1/2 hover:w-[80%] transition-all border-[.1px] border-white">
+          <h1 className="text-5xl text-center font-bold my-5 uppercase tracking-wide">
+            Flavoured
+          </h1>
+          <img
+            className="h-96 w-full object-contain"
+            src="./Images/Product1.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );
-}
+};
 
-export default Category
+export default Category;

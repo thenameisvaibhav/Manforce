@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: AvantGarde;
-    src: url(../Fonts/Avantgarde-Regular.otf);
-}
-
-@font-face {
     font-family: Nuckle;
     src: url(../Fonts/Nuckle-Regular.woff2);
 }

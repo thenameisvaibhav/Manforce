@@ -11,48 +11,65 @@ const Products = () => {
       duration: 2,
       scrollTrigger:{
         trigger:".slide",
-        markers: true,
+        markers: false,
         start: "top 0",
         end: "+=3000",
         scrub: 0.3,
       }
     });
-
-    gsap.to(".centertext",{
-      y: 10,
-      duration: 1,
-      repeat: -1,
-      yoyo: true
-    })
     
   })
   return (
-    <div className="hscroll w-full">
+    <div className="hscroll w-full font-['Nuckle']">
       <div className="hcontainer relative w-full h-[400vh]">
         <div className="slides h-screen overflow-hidden flex whitespace-nowrap sticky top-0">
           <div className="slide w-full relative h-screen flex-shrink-0 bg-orange-500 ">
+            <h1 className="relative text-7xl font-bold uppercase tracking-tighter text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-70">
+              Cocktail
+            </h1>
             <div className="centertext absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-              <h1 className="text-3xl">HELEOOO</h1>
+              <img
+                className="w-fit h-fit object-cover drop-shadow-[-10px_10px_0.1px_rgba(0,0,0,0.24)]"
+                src="./Images/Product1.png"
+                alt=""
+              />
             </div>
-            <img className="absolute" src="" alt="" />
           </div>
-          <div className="slide w-full relative h-screen flex-shrink-0 bg-yellow-500 ">
+          <div className="slide w-full relative h-screen flex-shrink-0 bg-orange-500 ">
+            <h1 className="relative text-7xl font-bold uppercase tracking-tighter text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-70">
+              Cocktail
+            </h1>
             <div className="centertext absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-              <h1 className="text-3xl">HELEOOO</h1>
+              <img
+                className="w-fit h-fit object-cover drop-shadow-[-10px_10px_0.1px_rgba(0,0,0,0.24)]"
+                src="./Images/Product1.png"
+                alt=""
+              />
             </div>
-            <img className="absolute" src="" alt="" />
           </div>
-          <div className="slide w-full relative h-screen flex-shrink-0 bg-green-500 ">
+          <div className="slide w-full relative h-screen flex-shrink-0 bg-orange-500 ">
+            <h1 className="relative text-7xl font-bold uppercase tracking-tighter text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-70">
+              Cocktail
+            </h1>
             <div className="centertext absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-              <h1 className="text-3xl">HELEOOO</h1>
+              <img
+                className="w-fit h-fit object-cover drop-shadow-[-10px_10px_0.1px_rgba(0,0,0,0.24)]"
+                src="./Images/Product1.png"
+                alt=""
+              />
             </div>
-            <img className="absolute" src="" alt="" />
           </div>
-          <div className="slide w-full relative h-screen flex-shrink-0 bg-blue-500 ">
+          <div className="slide w-full relative h-screen flex-shrink-0 bg-orange-500 ">
+            <h1 className="relative text-7xl font-bold uppercase tracking-tighter text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-70">
+              Cocktail
+            </h1>
             <div className="centertext absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center">
-              <h1 className="text-3xl">HELEOOO</h1>
+              <img
+                className="w-fit h-fit object-cover drop-shadow-[-10px_10px_0.1px_rgba(0,0,0,0.24)]"
+                src="./Images/Product1.png"
+                alt=""
+              />
             </div>
-            <img className="absolute" src="" alt="" />
           </div>
         </div>
       </div>

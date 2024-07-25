@@ -55,7 +55,7 @@ const Cursor = () => {
           width: size,
           height: size,
         }}
-        className="top-0 left-0 fixed rounded-full z-[999]"
+        className="top-0 left-0 fixed rounded-full z-[999] mix-blend-difference"
       />
     </div>
   );
