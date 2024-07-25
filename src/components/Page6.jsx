@@ -56,7 +56,7 @@ const Page6 = () => {
             alt=""
           />
         </div>
-        <div className="images lg:flex items-center">
+        <div className="images hidden lg:flex items-center">
             <img
               className="w-full h-20 object-contain"
               src="./Images/flipkart.png"
