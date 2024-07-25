@@ -8,7 +8,6 @@ import Page4 from './components/Page4'
 import Page5 from './components/Page5'
 import Page6 from './components/Page6'
 import Footer from './components/Footer'
-import Age from './components/Age'
 import LocomotiveScroll from "locomotive-scroll";
 
 
@@ -16,7 +15,6 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full bg-[#111] text-[#F1F1F1]'>
-      <Age/>
       <Loader />
       <Cursor />
       <Landing />
