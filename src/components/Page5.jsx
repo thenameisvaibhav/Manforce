@@ -58,7 +58,7 @@ const Page5 = () => {
           muted
           loop
           className="w-full h-full object-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:aspect-square"
-          src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4"
+          src="./Videos/scene.mp4"
         ></video>
       </div>
       <div className="overlay absolute w-full h-full text-white flex flex-col justify-between p-20">

@@ -7,22 +7,32 @@ const Marquee = ({ maintexts }) => {
       <motion.div
         initial={{ x: "0%" }}
         animate={{ x: "-100%" }}
-        transition={{ ease: "linear", duration: 20, repeat: Infinity }}
-        className="marque flex flex-shrink-0 py-5 gap-5 pl-5 uppercase text-5xl font-bold"
+        transition={{ ease: "linear", duration: 25, repeat: Infinity }}
+        className="flex flex-shrink-0 py-5 gap-5 pl-5 uppercase text-7xl font-bold lg:font-black"
       >
         {maintexts.map((text, index) => (
-          <span key={index}>{text}</span>
+          <span
+            className="marque lg:text-transparent hover:text-white"
+            key={index}
+          >
+            {text}
+          </span>
         ))}
       </motion.div>
 
       <motion.div
         initial={{ x: "0%" }}
         animate={{ x: "-100%" }}
-        transition={{ ease: "linear", duration: 20, repeat: Infinity }}
-        className=" marque flex flex-shrink-0 py-5 gap-5 pl-5 uppercase text-5xl font-bold"
+        transition={{ ease: "linear", duration: 25, repeat: Infinity }}
+        className="flex flex-shrink-0 py-5 gap-5 pl-5 uppercase text-7xl font-bold lg:font-black"
       >
         {maintexts.map((text, index) => (
-          <span key={index}>{text}</span>
+          <span
+            className="marque lg:text-transparent hover:text-white"
+            key={index}
+          >
+            {text}
+          </span>
         ))}
       </motion.div>
     </div>

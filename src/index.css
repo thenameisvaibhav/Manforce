@@ -6,3 +6,7 @@
     font-family: Nuckle;
     src: url(../Fonts/Nuckle-Regular.woff2);
 }
+
+.marque{
+    -webkit-text-stroke: 3px white;
+}

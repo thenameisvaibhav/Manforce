@@ -9,34 +9,34 @@ const Footer = () => {
     >
       <div className="relative h-[200vh] -top-[100vh]">
         <div className="h-[100vh] sticky top-0">
-          <div className="Content h-full py-20">
+          <div className="Content h-full py-20 lg:pt-1">
             <div className="image w-full">
               <img
-                className="w-full h-fit object-contain"
+                className="w-full h-fit lg:h-80 object-contain"
                 src="https://www.manforcecondoms.com/img/mfc-white.svg"
                 alt=""
               />
             </div>
             <div className="text py-10">
-              <div className="flex items-center justify-center gap-8">
+              <div className="flex items-center justify-center gap-8 lg:gap-96">
                 <div className="work">
-                  <h1 className="text-xl">Privacy policy</h1>
-                  <h1 className="text-xl">Returns</h1>
-                  <h1 className="text-xl">
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Privacy policy</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Returns</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">
                     Terms & <br /> Conditions
                   </h1>
-                  <h1 className="text-xl">Shipping</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Shipping</h1>
                 </div>
                 <div className="social">
-                  <h1 className="text-xl">Instagram</h1>
-                  <h1 className="text-xl">Facebook</h1>
-                  <h1 className="text-xl">Linkedin</h1>
-                  <h1 className="text-xl">Contact</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Instagram</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Facebook</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Linkedin</h1>
+                  <h1 className="text-xl lg:text-2xl hover:underline underline-offset-2">Contact</h1>
                 </div>
               </div>
             </div>
             <div className="py-10">
-              <h1 className="text-xl text-center">
+              <h1 className="text-xl lg:text-2xl text-center">
                 {" "}
                 © 2023 Manforce. All rights reserved{" "}
               </h1>
