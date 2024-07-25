@@ -16,8 +16,8 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full bg-[#111] text-[#F1F1F1]'>
-      {/* <Age/> */}
-      {/* <Loader /> */}
+      <Age/>
+      <Loader />
       <Cursor />
       <Landing />
       <Page2 />
