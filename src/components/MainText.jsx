@@ -16,8 +16,8 @@ const MainText = () => {
               transition={{
                 ease: [0.85, 0, 0.15, 1],
                 duration: 1,
-                delay: 4.5,
-                delayChildren: index * .5
+                delay: 2.5,
+                delayChildren: index * .3
               }}
               className="inline-block origin-left"
             >
